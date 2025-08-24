@@ -22,6 +22,7 @@ html {
 .content {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: 0 30px 0 30px;
 }
 
@@ -61,6 +62,16 @@ ol {
   margin-right: 30px;
 }
 
+.result__video-container {
+  margin-bottom: 16px;
+}
+
+.result__video {
+  width: 711px;
+  height: 386px;
+  object-fit: cover;
+}
+
 .search-form {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -77,6 +88,34 @@ ol {
 }
 
 .content__list-container {
+  width: 399px;
   height: 298px;
   overflow-y: auto;
+}
+
+.content__video-card {
+  display: flex;
+  align-items: start;
+}
+
+.content__video-card-description-container {
+  width: 196px;
+  height: 103px;
+  flex-grow: 1;
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  min-height: 103px;
+  object-fit: contain;
+  object-position: 50%;
+}
+
+.content__list {
+  display: grid;
+  gap: 30px;
+}
+
+.more-button {
+  margin-top: 30px;
 }
