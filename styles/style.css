@@ -94,7 +94,7 @@ ol {
   border: 1px solid white;
   background-color: rgba(28,28,28,0); 
   color: white;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
 }
 
@@ -112,7 +112,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -132,17 +132,17 @@ ol {
   gap: 5px;
 }
 
-.search-form__label:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
 .search-form__label:focus-visible {
   outline: 1px solid white;
 }
 
 .search-form__label:has(:focus-visible) {
   outline: 2px solid #FFF;
+}
+
+.search-form__label-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .search-form__pseudo-checkbox {
@@ -176,7 +176,7 @@ ol {
 .search-form__textfield {
   width: 225px;
   height: 22px;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -194,10 +194,8 @@ ol {
 }
 
 .title {
-  width: 259px;
-  height: 210px;
   margin-bottom: 26px;
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   font-weight: Bold;
   font-size: 75px;
   line-height: 94%;
@@ -207,11 +205,6 @@ ol {
 .content__accent {
   width: 259px;
   height: 210px;
-  font-family: 'Oswald';
-  font-weight: Bold;
-  font-size: 75px;
-  line-height: 94%;
-  text-transform: uppercase;
   color: #545050;
 }
 
@@ -234,7 +227,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
@@ -245,7 +238,7 @@ ol {
 }
 
 .content__video-card-description {
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
@@ -267,7 +260,7 @@ ol {
   gap: 30px;
 }
 
-.content__list-item:focus-visible {
+.content__list-item {
   padding-right: 3px;
   padding-left: 3px;
 }
@@ -301,7 +294,7 @@ ol {
 .more-button {
   margin-top: 30px;
   padding: 0 142px 0 142px;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
