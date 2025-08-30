@@ -212,6 +212,7 @@ ol {
   width: 399px;
   height: 298px;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .content__video-card {
